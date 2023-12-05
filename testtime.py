@@ -44,5 +44,5 @@ for func in [partition_dyn, partition_bnb]:
 
 				time.sleep(0.5)
 			
-			print(f'Total\t{round(total_time / iters * 1000, 4)} ms\t{total_size / iters / 1000} kB\t{humanize.naturaldelta(total_time / iters, minimum_unit="milliseconds")}\t{humanize.naturalsize(total_size / iters)}')
+			print(f'Avg  \t{round(total_time / iters * 1000, 4)} ms\t{total_size / iters / 1000} kB\t{humanize.naturaldelta(total_time / iters, minimum_unit="milliseconds")}\t{humanize.naturalsize(total_size / iters)}')
 			# print(f'{round((total_time/iters) * 1000, 4)}ms')
